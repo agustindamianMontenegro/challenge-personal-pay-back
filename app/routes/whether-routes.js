@@ -14,6 +14,9 @@ router.get('/location', async (req, res, next) => {
     try {
         logger.info(`get location user by ip ${ip}`);
         city = await controller.getLocationWithIp(ip);
+        if(city.status === 'fail') {
+            throw new Error(city)
+        }
         logger.info('succes get location by ip');
         return res.json(city);
 
