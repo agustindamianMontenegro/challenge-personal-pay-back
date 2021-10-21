@@ -53,13 +53,13 @@ https://personal-pay-challenge.herokuapp.com/
 curl de prueba en heroku
 
 
-curl --location --request GET 'https://personal-pay-challenge.herokuapp.com//v1/location' 
+curl --location --request GET 'https://personal-pay-challenge.herokuapp.com/v1/location' 
 
-curl --location --request GET 'https://personal-pay-challenge.herokuapp.com//v1/current' 
+curl --location --request GET 'https://personal-pay-challenge.herokuapp.com/v1/current' 
 
-curl --location --request GET 'https://personal-pay-challenge.herokuapp.com//v1/current/buenos aires' 
+curl --location --request GET 'https://personal-pay-challenge.herokuapp.com/v1/current/buenos aires' 
 
-curl --location --request GET 'https://personal-pay-challenge.herokuapp.com//v1/forecast/buenos aires' 
+curl --location --request GET 'https://personal-pay-challenge.herokuapp.com/v1/forecast/buenos aires' 
 
-curl --location --request GET 'https://personal-pay-challenge.herokuapp.com//v1/forecast'
+curl --location --request GET 'https://personal-pay-challenge.herokuapp.com/v1/forecast'
 ```
