@@ -20,7 +20,8 @@ URL_API_IP
 
 ## CONSIDERACIONES 
 ```
-si se va a probar de forma local agregar  el header x-forwarded-for con alguna ip sino tomar localhost y la api de ip-api arojara un error
+si se va a probar de forma local agregar  el header x-forwarded-for con alguna ip 
+sino toma localhost y la api de ip-api arojara un error
 ```
 
 ## Curl de ejemplos
