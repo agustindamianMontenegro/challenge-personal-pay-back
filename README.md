@@ -10,7 +10,7 @@ npm i
 
 ```
 Es necesario crear el archivo .env si se va levantar de forma local agregando las siguientes envs
-
+API_KEY     (key de la api de openweathermap.org )
 PORT
 
 si por algun motivo las url de las api cambia se podran cambiar con las siguientes envs
@@ -43,4 +43,22 @@ curl --location --request GET 'http://localhost:3030/v1/forecast/buenos aires' \
 
 curl --location --request GET 'http://localhost:3030/v1/forecast' \
 --header 'x-forwarded-for: 190.111.229.189'
+```
+##IMPORTANTE
+```
+El servicio ya se subio a heroku para que se pueda utilizar 
+https://personal-pay-challenge.herokuapp.com/
+
+curl de prueba en heroku
+
+
+curl --location --request GET 'https://personal-pay-challenge.herokuapp.com//v1/location' 
+
+curl --location --request GET 'https://personal-pay-challenge.herokuapp.com//v1/current' 
+
+curl --location --request GET 'https://personal-pay-challenge.herokuapp.com//v1/current/buenos aires' 
+
+curl --location --request GET 'https://personal-pay-challenge.herokuapp.com//v1/forecast/buenos aires' 
+
+curl --location --request GET 'https://personal-pay-challenge.herokuapp.com//v1/forecast'
 ```
